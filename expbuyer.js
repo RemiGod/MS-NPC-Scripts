@@ -25,7 +25,7 @@ function action(mode, type, selection) {
 			status--;
 		else if (status == 1) {
 			if (selection == 1) {
-				if (cm.getMeso() >= 100000000) { //This is how much they need
+				if (cm.getMeso() >= 100000000) { //This is how much meso they need
 					cm.gainMeso(-100000000);
 					cm.gainExp(100000000); //This is how much EXP you get
 					cm.dispose();
@@ -34,7 +34,7 @@ function action(mode, type, selection) {
 					cm.dispose();
 				}
 			} else if (selection == 2) {
-				if (cm.getMeso() >= 500000000) { //This is how much they need
+				if (cm.getMeso() >= 500000000) { //This is how much meso they need
 					cm.gainMeso(-500000000);
 					cm.gainExp(500000000); //This is how much EXP you get
 					cm.dispose();
