@@ -6,6 +6,7 @@
 
 
 ///WIP
+///Text fixed to GMS LIKE
 
 importPackage(Packages.net.sf.odinms.client);
 
