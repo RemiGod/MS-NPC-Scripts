@@ -1,1 +1,1 @@
-# MS-NPC-Scripts
+# MapleStory NPC Scripts
